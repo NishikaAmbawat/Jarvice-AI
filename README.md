@@ -30,30 +30,30 @@ Jarvice AI is a full-stack AI-powered web application that delivers intelligent 
 
 ## 📁 Project Structure
 User
- │
- ▼
+│
+▼
 React Frontend (client/)
- │  ├── UI Components (src/)
- │  ├── State Management
- │  └── API Requests (REST)
- │
- ▼
+├── src/                # UI components, pages, state management
+└── public/             # Static assets
+│
+▼
 Node.js Backend (server/)
- │  ├── routes/        → Feature-based REST endpoints
- │  ├── middleware/    → JWT auth, validation, access control
- │  ├── config/        → DB, environment, app configs
- │  ├── utils/         → Helpers, AI logic, reusable utilities
- │  ├── migrations/   → Database version control
- │  ├── uploads/      → Resume & file storage
- │  └── init-db.sql   → Initial database schema
- │
- ▼
+├── routes/             # Feature-based REST endpoints
+├── middleware/         # JWT auth, validation, access control
+├── config/             # Database & environment configuration
+├── utils/              # Helpers, AI logic, reusable utilities
+├── migrations/         # Database version control
+├── uploads/            # Resume & file storage
+└── init-db.sql         # Initial database schema
+│
+▼
 SQL Database
- │  ├── Users
- │  ├── Resumes
- │  ├── Interviews
- │  ├── Subscriptions
- │  └── Activity History
+├── Users
+├── Resumes
+├── Interviews
+├── Subscriptions
+└── Activity_History
+
 
 
 **Client (.env)**
